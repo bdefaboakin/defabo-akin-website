@@ -4,74 +4,74 @@ minimal_mistakes_skin: default
 locale: en-US
 title: Minimal Mistakes Forestry Starter
 title_separator: "-"
-subtitle: 
+subtitle:
 name: Your Name
 description: An amazing website.
-url: 
-baseurl: 
-repository: 
-teaser: 
-logo: 
-masthead_title: 
+url:
+baseurl:
+repository:
+teaser:
+logo:
+masthead_title:
 words_per_minute: "200"
 comments:
-  provider: 
+  provider:
   disqus:
-    shortname: 
+    shortname:
   discourse:
-    server: 
+    server:
   facebook:
-    appid: 
-    num_posts: 
-    colorscheme: 
+    appid:
+    num_posts:
+    colorscheme:
   utterances:
-    theme: 
-    issue_term: 
+    theme:
+    issue_term:
   staticman:
-    branch: 
-    endpoint: 
+    branch:
+    endpoint:
 reCaptcha:
-  siteKey: 
-  secret: 
+  siteKey:
+  secret:
 atom_feed:
-  path: 
-search: 
-search_full_content: 
-search_provider: 
+  path:
+search:
+search_full_content:
+search_provider:
 algolia:
-  application_id: 
-  index_name: 
-  search_only_api_key: 
-  powered_by: 
+  application_id:
+  index_name:
+  search_only_api_key:
+  powered_by:
 google:
-  search_engine_id: 
-  instant_search: 
-google_site_verification: 
-bing_site_verification: 
-yandex_site_verification: 
-naver_site_verification: 
+  search_engine_id:
+  instant_search:
+google_site_verification:
+bing_site_verification:
+yandex_site_verification:
+naver_site_verification:
 twitter:
-  username: 
+  username:
 facebook:
-  username: 
-  app_id: 
-  publisher: 
-og_image: 
+  username:
+  app_id:
+  publisher:
+og_image:
 social:
-  type: 
-  name: 
-  links: 
+  type:
+  name:
+  links:
 analytics:
   provider: false
   google:
-    tracking_id: 
-    anonymize_ip: 
+    tracking_id:
+    anonymize_ip:
 author:
   name: Your Name
-  avatar: 
+  avatar:
   bio: I am an **amazing** person.
   location: Somewhere
-  email: 
+  email:
   links:
   - label: Email
     icon: fas fa-fw fa-envelope-square
@@ -154,7 +154,7 @@ sass:
 permalink: "/:categories/:title/"
 paginate: "5"
 paginate_path: "/page:num/"
-timezone: 
+timezone:
 plugins:
 - jekyll-archives
 - jekyll-paginate
@@ -191,7 +191,7 @@ defaults:
     layout: single
     author_profile: true
     read_time: true
-    comments: 
+    comments:
     share: true
     related: true
 - scope:
