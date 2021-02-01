@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: heading
@@ -11,7 +11,7 @@ sections:
   label: Blog
   create: documents
   match: "*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - post-standard
   - post-header
@@ -20,7 +20,7 @@ sections:
   label: Microblog
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: _pages
   label: Pages
