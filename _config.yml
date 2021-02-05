@@ -180,10 +180,6 @@ collections:
     output: true
     permalink: "/:collection/:path/"
 defaults:
-- scope: ''
-  values: ''
-- scope: ''
-  values: ''
 - scope:
     path: ''
     type: posts
