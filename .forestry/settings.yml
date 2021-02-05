@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Samples
 - type: directory
-  path: _samplepages
+  path: _sampleposts
   label: Sample Posts
   create: all
   match: "**/*"
