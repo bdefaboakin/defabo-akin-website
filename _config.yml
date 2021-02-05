@@ -2,11 +2,11 @@
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: contrast
 locale: en-US
-title: Minimal Mistakes Forestry Starter
+title: DeFabo Akin Family
 title_separator: "|"
 subtitle: 
 name: 'DeFabo Akin Family'
-description: An amazing website.
+description: Little existential weather reports from our family.
 url: "https://defaboakin.com"
 baseurl:
 repository: "bdefaboakin/defabo-akin-website"
@@ -69,7 +69,7 @@ analytics:
 author:
   name: Brad DeFabo Akin
   avatar:
-  bio: I am an **amazing** person.
+  bio: In a sense, I am bacon.
   location: Chicago
   email:
   links:
