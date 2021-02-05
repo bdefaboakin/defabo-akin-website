@@ -4,13 +4,8 @@ minimal_mistakes_skin: default
 locale: en-US
 title: Minimal Mistakes Forestry Starter
 title_separator: "-"
-<<<<<<< HEAD
-subtitle:
-name: Brad DeFabo Akin
-=======
 subtitle: 
-name: 'DeFabo Akin '
->>>>>>> master
+name: 'DeFabo Akin Family'
 description: An amazing website.
 url:
 baseurl:
