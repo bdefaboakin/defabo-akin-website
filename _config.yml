@@ -1,15 +1,15 @@
 ---
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: default
+minimal_mistakes_skin: contrast
 locale: en-US
 title: Minimal Mistakes Forestry Starter
-title_separator: "-"
+title_separator: "|"
 subtitle: 
 name: 'DeFabo Akin Family'
 description: An amazing website.
-url:
+url: "https://defaboakin.com"
 baseurl:
-repository:
+repository: "bdefaboakin/defabo-akin-website"
 teaser:
 logo:
 masthead_title:
@@ -126,6 +126,8 @@ exclude:
 - package-lock.json
 - Rakefile
 - README
+- "/_samplepages"
+- "/_sampleposts"
 - tmp
 - "/docs"
 - "/test"
