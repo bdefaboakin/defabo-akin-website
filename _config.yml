@@ -5,7 +5,7 @@ locale: en-US
 title: Minimal Mistakes Forestry Starter
 title_separator: "-"
 subtitle:
-name: Your Name
+name: Brad DeFabo Akin
 description: An amazing website.
 url:
 baseurl:
@@ -67,10 +67,10 @@ analytics:
     tracking_id:
     anonymize_ip:
 author:
-  name: Your Name
+  name: Brad DeFabo Akin
   avatar:
   bio: I am an **amazing** person.
-  location: Somewhere
+  location: Chicago
   email:
   links:
   - label: Email
