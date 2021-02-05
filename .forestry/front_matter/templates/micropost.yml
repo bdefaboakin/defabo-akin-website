@@ -1,4 +1,112 @@
 ---
 label: Micropost
 hide_body: false
-fields: []
+fields:
+- name: date_time
+  type: datetime
+  label: Date Time
+  description: ''
+  config:
+    required: true
+    date_format: MMM DD | YYYY
+    time_format: h:mm A ZZ
+    display_utc: false
+    export_format: YYYY-MM-DD hh:mm:ss
+  hidden: true
+  default: now
+- name: photo
+  type: file
+  config:
+    maxSize: 64
+  label: Photo
+  showOnly:
+    field: type
+    value: Photo
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Quote
+    - Link
+    - Note
+    - Photo
+    - Gallery
+    - Location
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
+  showOnly:
+    field: type
+    value: Gallery
+- name: location
+  type: text
+  config:
+    required: false
+  label: Location
+  showOnly:
+    field: type
+    value: Location
+- name: doing_here
+  type: text
+  config:
+    required: false
+  label: What are you doing?
+  showOnly:
+    field: type
+    value: Location
+- name: note_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+    max: 280
+  label: Use your words
+  showOnly:
+    field: type
+    value: Note
+- name: caption
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+    max: 100
+  label: Caption
+  showOnly:
+    field: type
+    value: Photo
+- name: quote
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+    max: 200
+  label: Quote
+  showOnly:
+    field: type
+    value: Quote
+- name: speaker
+  type: text
+  config:
+    required: false
+  label: Speaker
+  showOnly:
+    field: type
+    value: Quote
