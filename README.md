@@ -6,6 +6,8 @@
 - [Jekyll](https://jekyllrb.com/)
 - [Forestry](https://app.forestry.io/)
 - [Netlify](https://app.netlify.com/)
+  
+  *and GitHub of course...*
 
 #### Theme:
 [**Minimal Mistakes**](https://mmistakes.github.io/minimal-mistakes/) by [Michael Rose](https://mademistakes.com/)
